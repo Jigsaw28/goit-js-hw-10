@@ -44,7 +44,7 @@ function renderCountryInfo(countries) {
         <p class = "country__population"><span class = "country-bold">Population:</span> ${population}</p>
         <p class = "country__language"><span class = "country-bold">Languages:</span> ${Object.values(
           languages
-        ).join(',')}`;
+        ).join(", ")}`;
     })
     .join('');
 }
